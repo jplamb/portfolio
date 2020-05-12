@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import logo from '../images/profile.jpeg'; // Tell Webpack this JS file uses this image
+import logo from '../images/profile.jpeg';
 import Image from 'react-bootstrap/Image';
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
@@ -11,7 +11,7 @@ export default class Sidebar extends Component {
 				<Image src={logo} roundedCircle thumbnail />
 				<div class="text-center font-weight-bold">John Lamb</div>
 				<Nav defaultActiveKey="" className="flex-column">
-					<Nav.Link href="">Introduction</Nav.Link>
+					<Nav.Link href="">Home</Nav.Link>
 					<Nav.Link href="">About Me</Nav.Link>
 					<Nav.Link href="">Projects</Nav.Link>
 					<Nav.Link href="">Blog</Nav.Link>
